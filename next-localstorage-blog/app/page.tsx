@@ -1,6 +1,21 @@
 import Image from "next/image";
 
 export default function Home() {
+  const blogArticles = [
+    {
+      date: "2/3/24",
+      content: "I enacted my superpower: Ladderly with John.",
+      id: "0",
+    },
+
+    {
+      date: "2/10/24",
+      content:
+        "I completed the trial by fire. It went a lot like this: play, pause, play, pause, rewind, play, pause. You get the gist.",
+      id: "1",
+    },
+  ];
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -28,12 +43,19 @@ export default function Home() {
         </div>
       </div>
       <h1>Next LocalStorage Community Blog</h1>
-      <section id ="community-blog-articles-section">
+      <section id="community-blog-articles-section">
+        {blogArticles.map((article) => (
+          <article key={article.id}>
+            <h2>Date: {article.date}</h2>
+            <p>Content: {article.content}</p>
+          </article>
+        ))}
+
         <article>
           <h2>Dinosaur Teeth</h2>
           <p>Some are large.</p>
           <p>Some are small.</p>
-          <p>Some have no teeth at all.</p>
+          <p>Some have {<span>dentures</span>}.</p>
         </article>
 
         <article>
