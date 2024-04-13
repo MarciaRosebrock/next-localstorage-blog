@@ -50,19 +50,6 @@ export default function HomePage() {
             <p>Content: {article.content}</p>
           </article>
         ))}
-
-        <article>
-          <h2>Dinosaur Teeth</h2>
-          <p>Some are large.</p>
-          <p>Some are small.</p>
-          <p>Some have {<span>dentures</span>}.</p>
-        </article>
-
-        <article>
-          <h2>How to Come Up with a Topic</h2>
-          <p>Think about things.</p>
-          <p>Write them in paragraphs.</p>
-        </article>
       </section>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
