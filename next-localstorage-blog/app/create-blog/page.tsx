@@ -18,7 +18,7 @@ export default function CreateBlogPage() {
         </ul>
       </nav>
       <h1>Create Blog Post</h1>
-      <p>Time to get creative!</p>
+      <p>So, how's it going?</p>
     </div>
   );
 }

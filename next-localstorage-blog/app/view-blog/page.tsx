@@ -18,7 +18,7 @@ export default function ViewBlogPage() {
         </ul>
       </nav>
       <h1>Read Blog Posts Here</h1>
-      <p>See how everyone is doing!</p>
+      <p>See what everyone's been up to!</p>
     </div>
   );
 }
