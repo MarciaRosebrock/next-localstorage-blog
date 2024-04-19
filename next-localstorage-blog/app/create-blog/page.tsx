@@ -7,6 +7,12 @@ export default function CreateBlogPage() {
             <a href="/">Home</a>
           </li>
           <li>
+            <a href="/view-blog">Read</a>
+          </li>
+          <li>
+            <a href="/sign-up">Join</a>
+          </li>
+          <li>
             <a href="/create-blog">Create</a>
           </li>
         </ul>
